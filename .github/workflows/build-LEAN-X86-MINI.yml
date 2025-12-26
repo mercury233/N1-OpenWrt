@@ -92,6 +92,7 @@ jobs:
         sudo -E apt -y autoremove --purge
         sudo -E apt -y install libfuse-dev
         sudo -E apt -y install libudev-dev
+        sudo -E apt -y install qemu-utils
         sudo -E apt -y install rename
         sudo -E apt -y install time
         sudo -E apt -y install gn
