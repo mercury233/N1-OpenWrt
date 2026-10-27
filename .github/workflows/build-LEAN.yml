@@ -181,4 +181,5 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         keep_latest: 10
+        delete_tag_pattern: '^OpenWrt_N1_'
         delete_tags : true

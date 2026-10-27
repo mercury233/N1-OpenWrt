@@ -184,4 +184,5 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         keep_latest: 10
+        delete_tag_pattern: '^LEDE_x86_64_'
         delete_tags : true
